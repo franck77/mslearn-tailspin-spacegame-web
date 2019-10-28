@@ -30,7 +30,7 @@ steps:
   workingDirectory: $(wwwrootDir)
 
 - task: DotNetCoreCLI@2
-  displayName: 'Run unit tests - $(buildConfiguration)'
+  displayName: 'Run unit tests2 - $(buildConfiguration)'
   inputs:
     command: 'test'
     arguments: '--no-build --configuration $(buildConfiguration)'
